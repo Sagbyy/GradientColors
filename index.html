@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Gradient Colors</title>
+</head>
+<body>
+    <div class="container">
+        <div class="input_group">
+            <label for="first_color">FFD143FF</label>
+            <input type="color" id="first_color">
+        </div>
+
+        <div class="input_group">
+            <label for="second_color">FF9153FF</label>
+            <input type="color" id="second_color">
+        </div>
+
+        <div class="range_group">
+            <label for="orientation">
+                <span>Orientation : </span>
+                <span>90</span>
+            </label>
+            <input type="range" id="orientation" min="0" max="0" value="90" class="range_gradient">
+        </div>
+
+        <div class="button_group">
+            <button class="copy_btn" type="button">Copier</button>
+            <button class="random_btn" type="button">Random</button>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
